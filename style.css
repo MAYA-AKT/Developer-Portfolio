@@ -5,6 +5,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+.secondary_bg{
+    background-color: #FFF8F3;
+}
 .dark_1{
     color: #181818;
 }
@@ -93,4 +96,55 @@ color: #FD6E0A;
 .banner_img img{
     height: 100%;
     width: 100%;
+}
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.about_section{
+    border-radius: 10px;
+    padding: 150px 250px;
+    text-align: center;
+    margin:100px 0px ;
+}
+.about_des{
+    font-size: 14px;
+    margin: 10px;
+    line-height: 27px;
+
+}
+.about_title{
+    font-size: 35px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.item_title{
+    font-weight: bold;
+}
+.about_items{
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+/* what is do section */
+.skill_title,skill_des{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    margin-top: 70px;
+   gap: 30px;
+}
+.card{
+    background-color: rgb(239, 247, 250);
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.card_title .card_icon{
+    margin-top:40px;
+}
+.skills_des{
+    font-size: 18px;
 }
